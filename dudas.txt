@@ -1,3 +1,12 @@
 AQUI PUEDES ADJUNTAR TODAS LAS DUDAS QUE TENGAS, PARA ESTAR EN CONTACTO POR MEDIO DE GIT Y GITHUB 
 
-    
+Hola, tengo una DUDA
+
+Sucede que voy a empezar a escribir la pagina todolonuevo.html que se encuentra en sitioweb|nuev|todolonuevo
+y esta tiene un menu desplegable ubicado en la parte izquierda.
+tal como lo muestra la vista 4 vista menu nuevo_todo lo nuevo.png ubicada en la carpeta vistas
+
+Y mi duda es si para escribir este menu desplegable en html tambien se realiza con lista <li></li>
+igual como el menu de navegacion. O se usa otra etiqueta???
+
+Quedo atenta gracias!
