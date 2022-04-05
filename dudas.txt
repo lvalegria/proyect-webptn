@@ -10,3 +10,11 @@ Y mi duda es si para escribir este menu desplegable en html tambien se realiza c
 igual como el menu de navegacion. O se usa otra etiqueta???
 
 Quedo atenta gracias!
+
+Respuesta: depende de la animacino que quieras generar con CSS, pero idealmente con la etiqueta <ul> </ul> y items <li> </li> dentro de ella es la mejor opcion para este tipo de menus. 
+te dejo un par de videos que en conjunto pueden ayudarte a armar tu idealmente
+https://www.youtube.com/watch?v=3mdQuS8VHKg&ab_channel=CodyTron
+
+https://www.youtube.com/watch?v=2n5_9boyGWw&ab_channel=SLeeDw
+
+https://www.youtube.com/watch?v=oZa2Ut8u2S0&ab_channel=FalconMasters
