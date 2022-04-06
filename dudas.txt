@@ -20,4 +20,4 @@ https://www.youtube.com/watch?v=2n5_9boyGWw&ab_channel=SLeeDw
 https://www.youtube.com/watch?v=oZa2Ut8u2S0&ab_channel=FalconMasters
 
 Hola estoy intentando traerme el commit imagenes en html para probar carrusel pero tuve problemas creo
-que me salio algo de una rama... como podria traerlo gracias
+que me salio algo de una rama... como podria traerlo gracias.
