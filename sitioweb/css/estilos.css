@@ -80,6 +80,7 @@
     margin: auto;
     margin-top: 75px;
     height: 610px;
+    overflow: hidden;
 }
 
 #compramas{
@@ -104,4 +105,5 @@
     display: flex; /*coloca las letras una al lado del la otra*/
     justify-content: space-between;
     list-style: none;
+    color: #ffffff;
 }
