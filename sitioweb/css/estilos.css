@@ -85,10 +85,8 @@
 }
 
 .itemcarrusel{
-<<<<<<< HEAD
-    border: 5px black;
-}
-=======
+  border: 5px black;
+
     width: 100%;
     top: 30px;
 }
@@ -107,4 +105,3 @@
     list-style: none;
     color: #5e5b86;
 }
->>>>>>> master
