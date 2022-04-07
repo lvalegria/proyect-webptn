@@ -85,5 +85,26 @@
 }
 
 .itemcarrusel{
+<<<<<<< HEAD
     border: 5px black;
 }
+=======
+    width: 100%;
+    top: 30px;
+}
+
+.tamañoimagen{
+    width: 100%;
+}
+
+.flechaimagen{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 350px;
+    display: flex; /*coloca las letras una al lado del la otra*/
+    justify-content: space-between;
+    list-style: none;
+    color: #5e5b86;
+}
+>>>>>>> master
