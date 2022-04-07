@@ -68,10 +68,20 @@
 
 .secuno{
     margin: auto;
+<<<<<<< HEAD
     margin-top: 50px;
     border: 5px black;
     width: 100%;
     height: 500px;
+=======
+    margin-top: 75px;
+    height: 610px;
+}
+
+#compramas{
+    position: relative;
+
+>>>>>>> parent of 45f2eaa (imagenes en html para probar carrusel)
 }
 
 .itemcarrusel{
@@ -93,6 +103,10 @@
     display: flex; /*coloca las letras una al lado del la otra*/
     justify-content: space-between;
     list-style: none;
+<<<<<<< HEAD
     color: #5e5b86;
 }
 
+=======
+}
+>>>>>>> parent of 45f2eaa (imagenes en html para probar carrusel)
