@@ -1,16 +1,14 @@
 * {
     padding: 0%;
     margin: 0%;
-    box-sizing: border-box;
 }
 
 .navegacion{
     width: 100%;
     margin: 0px;
     background: #ffffff;
-    padding: 0px;
+    padding: 5px;
     position: fixed;
-    top: 0;
 }
 
 #log {
@@ -25,12 +23,6 @@
 
 .navegacion ul{
     list-style: none;
-    position: absolute; 
-    /* este position absolute era necesario porque al colocar un position absolute
-     en .flechas imagen para que permanezcan en el espacio de primera sesión se suben hasta
-     arriba y con un position absolute desde aqui respeta este espacio*/
-    background-color: #ffffff;
-    width: 100%;
 }
 
 .menu>li{
@@ -58,7 +50,6 @@
     position: absolute;
     background-color: #ffffff;
     display: none;
-    width: 100%;
 
 }
 
@@ -74,8 +65,8 @@
     display: block;
 }
 
-/* primera seccion */
 
+<<<<<<< HEAD
 .secuno{
     margin: auto;
     margin-top: 50px;
@@ -105,3 +96,5 @@
     list-style: none;
     color: #5e5b86;
 }
+=======
+>>>>>>> parent of fa8a7f5 (CSS menu y carusel errores 1)
