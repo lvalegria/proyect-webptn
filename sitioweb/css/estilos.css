@@ -57,6 +57,7 @@ header #navegacion .menu{
     background-color: #fcfcfc;
     display: none;
     width: 100%;
+    margin-left: -33px;
     padding-bottom: 50px;
     padding-top: 25px;
 }
@@ -66,6 +67,7 @@ header #navegacion .menu{
     color: #3D3DAD;
     font-family: 'News Cycle', sans-serif;
     text-decoration: none;
+    margin: auto;
 }
 
 /*Este hover hace que el texto aparezca*/
@@ -85,7 +87,9 @@ header #navegacion .menu{
 
 h1{
     text-align: center;
-    padding: 60px;
+    padding: 100px;
+    padding-top: 130px;
+    padding-bottom: 25px;
 }
 
 .h1non{
@@ -101,3 +105,13 @@ h1{
 }
 
 /*SECTION 2 CARRUSEL DE LINEA DE IMAGENES*/
+
+.secdos{
+    width: 80%;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin-left: 130px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}

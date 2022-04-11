@@ -21,3 +21,15 @@ https://www.youtube.com/watch?v=oZa2Ut8u2S0&ab_channel=FalconMasters
 
 Hola estoy intentando traerme el commit imagenes en html para probar carrusel pero tuve problemas creo
 que me salio algo de una rama... como podria traerlo gracias.
+
+
+
+Hola!
+DUDA CARRUSEL MULTIPLE BOOTSTRAP 
+
+Sucede que estoy intentanto poner un carrusel multiple en la secdos despues del h1 de prendas
+que amamos, esto haciendo uso de boostrap sin embargo pasan las imagenes pero no me funcionan
+las flechitas ni los cuadritos de abajo... estuve buscando pero no encontre
+No se donde esta la falla para que funcione... me podrias ayudar, asesorar...
+
+Quedo atenta, gracias!
