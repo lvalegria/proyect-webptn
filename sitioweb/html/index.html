@@ -8,7 +8,13 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap" rel="stylesheet">
-		
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+		<enlace rel="preconectar" href="https://fonts.googleapis.com">
+			<enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+			<enlace href="https: //fonts.googleapis.com/css2? family= Nixie+One & display=swap" rel="stylesheet">
 	
 		<title> Pagina tienda de ropa</title>
 	</head>
@@ -16,7 +22,7 @@
 	<body>
 			<header>
 				
-				<nav class="navegacion">
+				<nav id="navegacion">
 					<ul class="menu">
 						<li> <a href="index.html"><img id="log"  src="../../image/logo.png" alt="logototallook"></a>
 						</li>
@@ -87,70 +93,44 @@
 					</ul>         
 				</nav>
 			</header>
+			
+
+			
 
 			<section class="secuno">
-
-				<div class="itemcarrusel">
-					<div class="itemimagen" id="itemimagen1">
-						<!--<button id="compramas"><a href="sale/mitadprecio.html">COMPRAR AHORA</a></button> 
-						<img class="tamañoimagen" src="../../image/carruselsale.jpg" alt="sale50%">-->
-
-					<div class="itemimagen">
-						<button id="compramas"><a href="sale/mitadprecio.html">COMPRAR AHORA</a></button> 
-						<img class="tamañoimagen" src="../../image/carruselsale.jpg" alt="sale50%">
+				<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-indicators">
+					  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 					</div>
-
-					<div class="flechaimagen">
-						<li>S</li>
-						<li>T</li>
+					<div class="carousel-inner">
+					  <div class="carousel-item active">
+						<img src="../../image/carruselsale.jpg" class="d-block w-100" alt="...">
+					  </div>
+					  <div class="carousel-item">
+						<img src="../../image/carruselhomb.jpg" class="d-block w-100" alt="...">
+					  </div>
+					  <div class="carousel-item">
+						<img src="../../image/carruselmujer.jpg" class="d-block w-100" alt="...">
+					  </div>
 					</div>
-				</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					  <span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					  <span class="visually-hidden">Next</span>
+					</button>
+				  </div>
 
-				<div class="itemcarrusel">
-
-					<div class="itemimagen" id="itemimagen2">
-						<!--<img class="tamañoimagen" src="../../image/carruselhomb.jpg" alt="sale50%">-->
-
-					<div class="itemimagen">
-						<img class="tamañoimagen" src="../../image/carruselhomb.jpg" alt="sale50%">
-
-					</div>
-
-					<div class="flechaimagen">
-						<li>S</li>
-						<li>T</li>
-					</div>
-				</div>
-
-				<div class="itemcarrusel">
-
-					<div class="itemimagen" id="itemimagen3">
-						<!--<img class="tamañoimagen" src="../../image/carruselmujer.jpg" alt="sale50%">-->
-
-					<div class="itemimagen">
-						<img class="tamañoimagen" src="../../image/carruselmujer.jpg" alt="sale50%">
-
-					</div>
-
-					<div class="flechaimagen">
-						<li>S</li>
-						<li>T</li>
-					</div>
-						
-
-			<section>
-				<img style="width:100%" src="../../image/carruselsale.jpg" alt="sale50%">
-				<button><a href="sale/mitadprecio.html">COMPRAR AHORA</a></button> 
-				<!--Este button va encima de la iamgen sale50%-->
-				<img style="width:100%" src="../../image/carruselhomb.jpg" alt="sale50%">
-				<img style="width:100%" src="../../image/carruselmujer.jpg" alt="sale50%">
-
-			</section>
+				
 
 			<div>
-				<h1><a href="nuev/prendasqueamamos.html">PRENDAS QUE AMAMOS</a></h1>
+				<h1><a href="nuev/prendasqueamamos.html" class="h1non">PRENDAS QUE AMAMOS</a></h1>
 			</div>
-
+		
 			<section> 
 				<img src="../../image/carrus1.jpg" alt="1">
 				<article>

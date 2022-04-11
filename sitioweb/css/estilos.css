@@ -1,15 +1,40 @@
 * {
     padding: 0%;
     margin: 0%;
+    box-sizing: border-box;
 }
 
-.navegacion{
+header #navegacion .menu{
     width: 100%;
     margin: 0px;
-    background: #ffffff;
+    background: #fcfcfc;
     position: fixed;
     top: 0;
+    z-index: 100;
+    
 }
+
+#navegacion ul{
+    list-style: none;
+}
+
+
+.menu>li>a{
+    list-style: none;
+    display: block;
+    padding: 15px 20px;
+    color: #3D3DAD;
+    font-family: 'News Cycle', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.menu>li{
+    display: inline-block;
+    color: #3D3DAD;
+    font-family: 'News Cycle', sans-serif;
+}
+
 
 #log {
     width: 200px;
@@ -21,25 +46,6 @@
     width: 20px;
 }
 
-.navegacion ul{
-    list-style: none;
-}
-
-.menu>li{
-    display: inline-block;
-    color: #3D3DAD;
-    font-family: 'News Cycle', sans-serif;
-}
-
-
-.menu>li>a{
-    display: block;
-    padding: 15px 20px;
-    color: #3D3DAD;
-    font-family: 'News Cycle', sans-serif;
-    text-decoration: none;
-}
-
 .letrapersonal{
     font-weight:bolder;
     margin: 18px 5px 5px 16px;
@@ -47,60 +53,51 @@
 /*SUBMENU*/
 
 .submenu{
-    position: absolute;
-    background-color: #ffffff;
+    position: fixed;
+    background-color: #fcfcfc;
     display: none;
-
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 25px;
 }
 
 .submenu li a{
-    display: block;
-    padding: 10px 15px 8px 15px;
+    padding: 20px 15px 8px 20px;
     color: #3D3DAD;
     font-family: 'News Cycle', sans-serif;
     text-decoration: none;
 }
 
+/*Este hover hace que el texto aparezca*/
 .menu li:hover .submenu{
     display: block;
 }
 
+/*SECCION UNO CARRUSEL*/
 
-.secuno{
-    margin: auto;
-
-    margin-top: 50px;
-    border: 5px black;
+.secuno {
     width: 100%;
-    height: 500px;
-
-    margin-top: 75px;
-    height: 610px;
-}
-/*
-#compramas{
     position: relative;
-    */
-
-.itemcarrusel{
-  border: 5px black;
-
-    width: 100%;
-    top: 30px;
+    top: 85px;
 }
 
-.tamañoimagen{
-    width: 100%;
+/*TEXTO PRENDAS QUE AMAMOS*/
+
+h1{
+    text-align: center;
+    padding: 60px;
 }
 
-.flechaimagen{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 350px;
-    display: flex; /*coloca las letras una al lado del la otra*/
-    justify-content: space-between;
-    list-style: none;
-
-    color: #5e5b86;
+.h1non{
+    text-align: center;
+    color: #3D3DAD;
+    text-decoration: none;
+    font-family:  'Nixie One', cursiva;
+    font-size: 80px;
 }
+
+.h1non:hover{
+    color: #2e2e8b;
+}
+
+/*SECTION 2 CARRUSEL DE LINEA DE IMAGENES*/
