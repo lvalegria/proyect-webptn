@@ -115,3 +115,66 @@ h1{
     margin-top: 0px;
     margin-bottom: 40px;
 }
+
+/*SECTION 3*/
+
+.sectres{
+    width: 100%;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    padding-left: 30px;
+}
+#spotify{    
+    margin-top: -625px;
+    margin-left: 6px;
+}
+
+#verde{
+    margin-top: -700px;
+    margin-left: 650px;
+}
+
+.textoverde{
+     margin-left: 650px;
+     padding-left: 8px;
+     margin-top: -75px;
+     padding-top: 10px;
+     font-family: 'Nixie One', cursiva;
+     font-size: 14px;
+     font-weight: 600;
+     color: rgb(17, 17, 17);
+     line-height: 22px;
+
+}
+
+/*SECTION CUATRO SET DE 3 IMAGENES SECCUATRO*/
+
+.seccuatro{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    margin: auto;
+}
+
+.textocuatro{
+    font-family: 'Nixie One', cursiva;
+    font-size: 14px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(17, 17, 17);
+    line-height: 22px;
+
+}
+
+.articulo4{
+    justify-content: center;
+    margin-left: 17px;
+    text-align: center;
+
+}
+
+.tamañoimagenes4{
+    width: 419px;
+}
