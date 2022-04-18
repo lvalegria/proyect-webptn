@@ -82,7 +82,27 @@ header #navegacion .menu{
     position: relative;
     top: 85px;
 }
+.secuno-buton-comprar{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 600px;
+    padding: 10px;
+    padding-right: 35px;
+    padding-left: 35px;
+    border: 0px solid;
+    background-color: #fcfcfc;
+    color: #2e2e8b;
+    font-family: 'Nixie One', cursiva;
+    font-size: 25px;
+    border-radius: 2px;
 
+}
+
+.secuno-buton-comprar:hover{
+    opacity: 90%;
+    transition: all;
+    color: #5b5bd1;
+}
 /*TEXTO PRENDAS QUE AMAMOS*/
 
 h1{
