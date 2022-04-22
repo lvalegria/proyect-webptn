@@ -1,12 +1,12 @@
 * {
     padding: 0%;
-    margin: 0%;
+    margin: auto;
     box-sizing: border-box;
 }
 
 header #navegacion .menu{
     width: 100%;
-    margin: 0px;
+    margin: auto;
     background: #fcfcfc;
     position: fixed;
     top: 0;
@@ -15,14 +15,18 @@ header #navegacion .menu{
 }
 
 #navegacion ul{
+    width: 90%;
     list-style: none;
 }
 
-
+.nav-logo{
+    width: 40%;    
+}
 .menu>li>a{
+    width: 90%;
     list-style: none;
     display: block;
-    padding: 15px 20px;
+    padding: 1em 1em;
     color: #3D3DAD;
     font-family: 'News Cycle', sans-serif;
     font-weight: 900;
@@ -42,20 +46,31 @@ header #navegacion .menu{
 
 
 #log {
-    width: 200px;
-    margin-right: 300px;
-    margin-left: 50px;
+    width: 40%;
+    margin-right: 20%;
+    margin-left: 1%;
 }
 
 .icons{
-    width: 20px;
+    width: 1.5em;
 }
 
 .letrapersonal{
     font-weight:bolder;
-    margin: 18px 5px 5px 16px;
+    margin: 1em 0.5em 0.5em 1em;
 }
 
+.li-entra-buton{
+    display: block;
+    width: 20%;
+    opacity: 100%;
+    padding: 0.5em;
+    margin: 0.5em;
+    border: none;
+    border-radius: 0.1em;
+    background-color: #5b5bd1;
+    color: #fcfcfc;
+}
 
 /*SUBMENU*/
 
@@ -64,9 +79,10 @@ header #navegacion .menu{
     background-color: #fcfcfc;
     display: none;
     width: 100%;
-    margin-left: -33px;
-    padding-bottom: 50px;
-    padding-top: 25px;
+    margin-left: -2em;
+    padding-bottom: 3em;
+    padding-top: 1.5em;
+    opacity: 90%;
 }
 
 .submenu li a{
@@ -75,14 +91,14 @@ header #navegacion .menu{
     font-family: 'News Cycle', sans-serif;
     text-decoration: none;
     margin: auto;
-    margin-left: 15px;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-left: 1em;
+    margin-top: 0.8em;
+    margin-bottom: 0.5em;
 }
 
 .navegacion-ul-hover{
     color: #3D3DAD;
-    line-height: 3px;
+    line-height: 0.3em;
 
 }
 
@@ -90,8 +106,8 @@ header #navegacion .menu{
     color: #2e2e8b;
     font-weight: 900;
     border-bottom: 1px solid #5b5bd1;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
   
 }
 
@@ -104,22 +120,24 @@ header #navegacion .menu{
 
 .secuno {
     width: 100%;
+    margin: auto;
+    margin-top: -3%;
     position: relative;
-    top: 85px;
+    top: 5em;
 }
 .secuno-buton-comprar{
     position: absolute;
-    margin-top: 300px;
-    margin-left: 600px;
-    padding: 10px;
-    padding-right: 35px;
-    padding-left: 35px;
+    margin-top: 25%;
+    margin-left: 44%;
+    padding: 0.5em;
+    padding-right: 1%;
+    padding-left: 1%;
     border: 0px solid;
     background-color: #fcfcfc;
     color: #2e2e8b;
     font-family: 'Nixie One', cursiva;
-    font-size: 25px;
-    border-radius: 2px;
+    font-size: 1.7em;
+    border-radius: 0.1em;
 
 }
 
@@ -128,37 +146,53 @@ header #navegacion .menu{
     transition: all;
     color: #5b5bd1;
 }
+
 /*TEXTO PRENDAS QUE AMAMOS*/
 
-h1{
-    text-align: center;
-    padding: 100px;
-    padding-top: 130px;
-    padding-bottom: 25px;
+.div-h1{
+    width: 100%;
+    position: relative;  
+    
+    
 }
 
-.h1non{
+
+.h1-a-text{ 
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    font-size: 222%;
     text-align: center;
-    color: #3D3DAD;
     text-decoration: none;
-    font-family:  'Nixie One', cursiva;
-    font-size: 80px;
+    color: #3D3DAD;
+
 }
 
-.h1non:hover{
-    color: #2e2e8b;
+.h1text{
+    padding: 3em;
+    padding-top: 3em;
+    padding-bottom: 0.3em;       
+    font-family:  'Nixie One', cursiva;
 }
+
+@media all and (min-width:200px) and (max-width:400px){
+    .h1-a-text{
+        font-size: 100%;
+    }
+}
+
+
 
 /*SECTION 2 CARRUSEL DE LINEA DE IMAGENES*/
 
 .secdos{
     width: 80%;
+    margin: auto;
     position: relative;
     justify-content: center;
     text-align: center;
-    margin-left: 130px;
-    margin-top: 0px;
-    margin-bottom: 40px;
+    margin-top: 0;
+    margin-bottom: 3em;
 }
 
 
@@ -167,62 +201,93 @@ h1{
 .sectres{
     width: 100%;
     position: relative;
+    display: flex;
+    display: block;
     margin: auto;
     justify-content: center;
-    padding-left: 30px;
 }
-#spotify{    
-    margin-top: -625px;
-    margin-left: 6px;
+
+.sectres-gif{
+    width: 45%;
+    margin-left: 5.5%;
+}
+#spotify{ 
+    width: 43%;   
+    margin-top: -114.5%;
+    margin-left: 51%;   
+   
 }
 
 #verde{
-    margin-top: -700px;
-    margin-left: 650px;
+    width: 43%;
+    margin-top: -56.9%;
+    margin-left: 51%;   
 }
 
 .textoverde{
-     margin-left: 650px;
-     padding-left: 8px;
-     margin-top: -75px;
-     padding-top: 10px;
-     font-family: 'Montserrat', sans-serif;
-     font-size: 13px;
-     font-weight: 600;
-     color: rgb(17, 17, 17);
-     line-height: 22px;
+    width: 43%;
+    position: relative;
+    display: block;   
+    margin-left: 51%;
+    margin-top: -10%;
+    margin-bottom: 2em;
+    padding: 0.8em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 95%;
+    font-weight: 600;
+    line-height: 1.3em;
+    color: rgb(150, 150, 150);
+    border: 1px solid #7add67;
+    border-style: dotted;
+    border-radius: 0.1em;
 
 }
 
 /*SECTION CUATRO SET DE 3 IMAGENES SECCUATRO*/
 
 .seccuatro{
-    width: 100%;
+    width: 90%; 
+    /*si ocurren cambios es que sin queres elimine este display:flex*/
     display: flex;
-    padding: 10px;
     margin: auto;
 }
 
-.textocuatro{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    padding: 5px;
-    font-size: 13px;
-    font-weight: 600;
-    color: rgb(17, 17, 17);
-    line-height: 22px;
-
-}
-
 .articulo4{
+    position: relative;
+    width: 60%;
+    padding: 0;
     justify-content: center;
-    margin-left: 17px;
     text-align: center;
-
 }
 
 .tamañoimagenes4{
-    width: 419px;
+    width: 95%;
+    justify-content: center;
+    padding: 0;
+}
+
+
+.textocuatro{
+    width: 95%;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0.8em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 95%;
+    font-weight: 600;
+    color: rgb(150, 150, 150);
+    line-height: 1.3em;
+    border: 1px solid #7add67;
+    border-style: dotted;
+    border-radius: 0.1em;
+
+}
+
+@media all and (min-width:200px) and (max-width:440px){
+    .seccuatro{
+        display: block;
+    }
 }
 
 /* BOTONES */
@@ -231,7 +296,8 @@ h1{
     position: relative;
     display: flex;
     width: 100%;
-    padding: 30px;
+    margin-top: 5%;
+    padding: 2em;
 }
 
 .decoracionboton{
@@ -239,8 +305,8 @@ h1{
     text-decoration: none;
     border: 1px solid #3D3DAD ;
     border-radius: 3px;
-    padding: 5px;
-    margin: 8px;
+    padding: 0.5em;
+    margin: 0.6em;
 }
 
 .decoracionboton:hover{ 
@@ -251,62 +317,22 @@ h1{
 
 .botones5{
     width: 80%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
     
-}
-
-/*footer*/
-
-.footer-class{
-    background-color: #5b5bd1;
-    position: relative;
-    padding-bottom: 50px;
-    
-}
-
-.ul-footer{
-    display: flex;
-    text-decoration: none;
-    margin: 15px;
-    
-}
-
-.li-ul-lista{
-    text-decoration: none;
-    list-style: none;
-    margin-left: 2px;
-    margin-right: 35px;
-    margin-top: 20px;
-    font-family: 'News Cycle', sans-serif;
-    color: #fcfcfc
-}
-
-.img-iconos{
-    width: 2em;
-    padding: 0;
-    margin-right: -10px;
-    margin-left: -10px;
-}
-
-#footer-logo-blanco{
-    width: 10em;
-    margin-left: -38px;
-}
-
-#footer-logospagos{
-    width: 16em;
 }
 /*SECCION 6*/
+
 .secseis{
+    width: 100%;
     margin: auto;
     position: relative;
 }
 #section6-img-enlace{
     width: 4%;
-    margin-left: 38.9em;
-    margin-top: 0em;
-    margin-bottom: 1.5em;
+    margin-left: 46%;
+    justify-content: center;
+    align-items: center;
 }
 #colorcambio{
     fill: #5b5bd1;
@@ -316,16 +342,84 @@ h1{
 }
 
 
+/*footer*/
 
+.footer-class{
+    width: 100%;
+    position: relative; 
+    margin: auto;
+    padding-bottom: 4em;
+    background-color: #5b5bd1;
+    justify-content: left;
+    
+}
+/* da display */
+.ul-footer{
+    display: flex;
+    text-decoration: none;
+    margin: 1em;
+    
+}
+
+
+.li-ul-lista{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    font-size: 1em;
+    font-family: 'News Cycle', sans-serif;
+    color: #fcfcfc
+}
+
+#footer-logo-blanco{
+    width: 6em;
+    margin-left: -2em;
+}
+
+.img-iconos{
+    width: 1.5em;
+    padding: 0;
+    margin-right: -1em;
+    margin-left: -1em;
+}
+
+#footer-logospagos{
+    width: 8em;
+}
+
+@media all and (min-width:200px) and (max-width:460px){
+    .ul-footer{
+        display:block;
+    }
+
+}
 /*FOOTER 2 */
 
 .footer-text-final{
     display: flex;
+    width: 60%;
 
 }
+#footer-table{
+    width: 80%;
+    justify-content: left;
+    display: block;
+}
 
+.footer-text-final{
+    width: 80%;
+    padding: 0;
+    justify-content: left;
+}
 .footertextfinal-p{
-    margin-right: 8em;
+    width: 100%;
+    padding: 0;
+    margin-left: -18%;
+    margin-top: -2%;
+    margin-right: -40%;
+    
 }
 
 .p-textdecoration{
@@ -334,21 +428,46 @@ h1{
 }
 
 .p-texto{
-    color: #fcfcfc;
+    width: 100%;
+    color: #ffffff;
     font-family: 'News Cycle', sans-serif;
     line-height: 0.5em;
     font-size: 0.9em;
 }
 
+@media all and (min-width:200px) and (max-width:400px){
+    .p-texto{
+        font-size: 0.5em;
+    }
+}
+
+.footertextfinal-buton{
+    width: 80%;
+    display: flex;
+    margin-top: 1%;
+}
+
+@media all and (min-width:200px) and (max-width:1070px){
+    .footertextfinal-buton{
+        display: block;
+        margin-left: -30%;
+        margin-top: 14em;
+
+    } 
+
+
+}
 .footer-buton1{
+    width: 100%;
     padding: 1em;
     margin: 1em;
-    margin-top: 2em;
+    margin-top: 1em;
     text-decoration: none;
     background-color: #5b5bd1;
     border: 1px solid #fcfcfc;
-    color: #fcfcfc;
+    color: #fdfdfd;
     font-family: 'Nixie One', cursiva;
+    font-size: 1em;
     font-weight: 500;
 }
 
@@ -362,17 +481,19 @@ h1{
 }
 
 .footer-tbody1{
-    padding-left: 15px;
-    margin-left: 20px;
+    padding-left: 1em;
+    margin-left: 1em;
 }
 
 
 .textoprueba{
-    padding-left: 14px;
+    padding-left: 1em;
     color: #fcfcfc;
     font-family: 'News Cycle', sans-serif ;
 }
 
 #footer-table{
-    margin-top: 25px;
+    margin-top: 2em
 }
+
+
