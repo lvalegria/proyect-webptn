@@ -10,7 +10,7 @@ header #navegacion .menu{
     background: #fcfcfc;
     position: fixed;
     top: 0;
-    z-index: 100;
+    z-index: 20;
     
 }
 
@@ -35,6 +35,11 @@ header #navegacion .menu{
     font-family: 'News Cycle', sans-serif;
 }
 
+.menu>li>a:hover{  
+    font-weight: 900;
+    opacity: 90%;
+}
+
 
 #log {
     width: 200px;
@@ -50,6 +55,8 @@ header #navegacion .menu{
     font-weight:bolder;
     margin: 18px 5px 5px 16px;
 }
+
+
 /*SUBMENU*/
 
 .submenu{
@@ -63,11 +70,29 @@ header #navegacion .menu{
 }
 
 .submenu li a{
-    padding: 20px 15px 8px 20px;
+    padding: 0;
     color: #3D3DAD;
     font-family: 'News Cycle', sans-serif;
     text-decoration: none;
     margin: auto;
+    margin-left: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.navegacion-ul-hover{
+    color: #3D3DAD;
+    line-height: 3px;
+
+}
+
+.navegacion-ul-hover:hover{
+    color: #2e2e8b;
+    font-weight: 900;
+    border-bottom: 1px solid #5b5bd1;
+    padding-left: 3px;
+    padding-right: 3px;
+  
 }
 
 /*Este hover hace que el texto aparezca*/
@@ -236,20 +261,21 @@ h1{
 .footer-class{
     background-color: #5b5bd1;
     position: relative;
+    padding-bottom: 50px;
     
 }
 
 .ul-footer{
     display: flex;
     text-decoration: none;
-    margin: 13px;
+    margin: 15px;
     
 }
 
 .li-ul-lista{
     text-decoration: none;
     list-style: none;
-    margin-left: 35px;
+    margin-left: 2px;
     margin-right: 35px;
     margin-top: 20px;
     font-family: 'News Cycle', sans-serif;
@@ -257,29 +283,49 @@ h1{
 }
 
 .img-iconos{
-    width: 2.5em;
+    width: 2em;
+    padding: 0;
+    margin-right: -10px;
+    margin-left: -10px;
 }
 
 #footer-logo-blanco{
     width: 10em;
+    margin-left: -38px;
 }
 
 #footer-logospagos{
     width: 16em;
 }
+/*SECCION 6*/
+.secseis{
+    margin: auto;
+    position: relative;
+}
+#section6-img-enlace{
+    width: 4%;
+    margin-left: 38em;
+    margin-top: 0em;
+    margin-bottom: 1.5em;
+}
+#colorcambio{
+    fill: #5b5bd1;
+}
+#colorcambio:hover{
+    fill:#2e2e8b;
+}
+
+
 
 /*FOOTER 2 */
 
 .footer-text-final{
     display: flex;
-    padding-left: 5em;
-    padding-top: 2em;
-    padding-bottom: 30px;
 
 }
 
 .footertextfinal-p{
-    margin-right: 10em;
+    margin-right: 8em;
 }
 
 .p-textdecoration{
@@ -296,10 +342,8 @@ h1{
 
 .footer-buton1{
     padding: 1em;
-    padding-left: 5em;
-    padding-right: 5em;
     margin: 1em;
-    margin-top: 4em;
+    margin-top: 2em;
     text-decoration: none;
     background-color: #5b5bd1;
     border: 1px solid #fcfcfc;
@@ -315,4 +359,20 @@ h1{
     font-family: 'Nixie One', cursiva;
     font-weight: 500;
 
+}
+
+.footer-tbody1{
+    padding-left: 15px;
+    margin-left: 20px;
+}
+
+
+.textoprueba{
+    padding-left: 14px;
+    color: #fcfcfc;
+    font-family: 'News Cycle', sans-serif ;
+}
+
+#footer-table{
+    margin-top: 25px;
 }
