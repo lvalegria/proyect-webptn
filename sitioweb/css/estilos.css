@@ -186,8 +186,8 @@ h1{
      padding-left: 8px;
      margin-top: -75px;
      padding-top: 10px;
-     font-family: 'Nixie One', cursiva;
-     font-size: 14px;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 13px;
      font-weight: 600;
      color: rgb(17, 17, 17);
      line-height: 22px;
@@ -204,10 +204,10 @@ h1{
 }
 
 .textocuatro{
-    font-family: 'Nixie One', cursiva;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     padding: 5px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     color: rgb(17, 17, 17);
     line-height: 22px;
